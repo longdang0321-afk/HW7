@@ -1,0 +1,39 @@
+Seed : 1
+
+[Sparse Graph] Vertices : 100 / Edges : 100
+Insert (93,96) / Delete (61,67) / Connectivity (93,68) = no
+Case 1 : Sparse Graph - Adjacency Matrix
+Memory                         : 40000 Bytes
+Edge insertion comparisons     : 1
+Edge deletion comparisons      : 1
+Connectivity check comparisons : 1
+Adjacent vertices comparisons  : 100
+Adjacent of 73 (1): 58
+
+Case 2 : Sparse Graph - Adjacency List
+Memory                         : 4000 Bytes
+Edge insertion comparisons     : 4
+Edge deletion comparisons      : 5
+Connectivity check comparisons : 5
+Adjacent vertices comparisons  : 1
+Adjacent of 73 (1): 58
+
+[Dense Graph] Vertices : 100 / Edges : 4000
+Insert (59,33) / Delete (2,49) / Connectivity (93,91) = yes
+Case 3 : Dense Graph - Adjacency Matrix
+Memory                         : 40000 Bytes
+Edge insertion comparisons     : 1
+Edge deletion comparisons      : 1
+Connectivity check comparisons : 1
+Adjacent vertices comparisons  : 100
+Adjacent of 22 (82): 0 1 2 3 4 5 7 8 9 10 11 12 13 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 32 33 35 36 37 39 40 41 42 44 46 
+47 48 50 51 52 53 54 55 56 57 58 60 61 62 64 65 66 67 68 69 70 71 72 73 77 79 80 81 82 83 84 86 87 89 91 92 93 94 95 96 97 98 99
+
+Case 4 : Dense Graph - Adjacency List
+Memory                         : 128800 Bytes
+Edge insertion comparisons     : 84
+Edge deletion comparisons      : 46
+Connectivity check comparisons : 69
+Adjacent vertices comparisons  : 82
+Adjacent of 22 (82): 53 32 89 52 55 98 58 99 95 4 46 70 82 73 68 25 33 2 21 97 39 11 67 93 27 65 23 12 79 48 57 7 71 56 9 28 94 1 8 
+60 61 87 62 24 16 80 44 19 84 47 18 20 37 5 92 54 3 0 77 96 72 30 51 17 10 29 86 69 13 40 36 42 41 81 66 35 26 50 15 91 83 64
